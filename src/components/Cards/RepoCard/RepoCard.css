@@ -1,0 +1,27 @@
+.resultsList {
+    margin: 2%;
+}
+
+.repoCard {
+    border: 1px solid lightgrey;
+    padding: 1% 0% 1% 3%;
+}
+
+.repoName {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.repoDescription {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.bottomContent {
+    display: flex;
+}
+
+.bottomItem {
+    margin: 0;
+}

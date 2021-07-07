@@ -1,9 +1,11 @@
+import RepoCard from '../Cards/RepoCard/RepoCard'
 import './Results.css';
 
-export const Results = () => {
+export const Results = (props) => {
+  const { repos } = props
   return (
-    <div className="Nav">
-      <h1>Results</h1>
+    <div className="RepoCard">
+      <RepoCard repos={repos} />
     </div>
   );
 }
