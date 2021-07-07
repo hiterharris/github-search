@@ -1,0 +1,20 @@
+.nav {
+    background-color: #252A2E;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    color: white;
+    margin-left: 10px;
+}
+
+input {
+    height: 30px;
+    margin-left: 10px;
+    background-color: #404548;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
